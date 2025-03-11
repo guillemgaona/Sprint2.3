@@ -1,0 +1,141 @@
+{
+    "ulleres": [
+        {
+            "marca": "Ray-ban",
+            "graduacio": {
+                "esquerra": 1.5,
+                "dreta": 3
+            },
+            "muntura": "flotant",
+            "color-muntura": {
+                "vidre-esquerre": "verd",
+                "vidre-dret": "verd"
+            },
+            "proveidors": {
+                    "nom" : "Òptica Universitària",
+                    "adreça": {
+                        "carrer": "Sant Antoni Maria Claret", 
+                        "número": "167",
+                        "pis": null, 
+                        "porta": null, 
+                        "ciutat": "Barcelona", 
+                        "codi postal": "08025",
+                        "país": "Espanya"
+                    },
+                    "telèfon": "934334455",
+                    "fax": null,
+                    "Nif": "B58442500"
+                },
+            "preu": 123.45,
+            "vendes": {
+                "client_id": { "$oid":"67ced6544001f27a32ef86ea"},
+                "empleat_id": { "$oid":"67fff6544001f27a32ef86ea"},
+                "data_hora": "2025-03-08T10:30:00Z"
+             }
+        },
+        {
+            "marca": "Hawkers",
+            "graduacio": {
+                "esquerra": 0.75,
+                "dreta": 0
+            },
+            "muntura": "metal·lica",
+            "color-muntura": {
+                "vidre-esquerre": "negre",
+                "vidre-dret": "negre"
+            },
+            "proveidors": {
+                "nom" : "Multiópticas",
+                "adreça": {
+                    "carrer": "Rambla del Poblenou", 
+                    "número": "129-131",
+                    "pis": null, 
+                    "porta": null, 
+                    "ciutat": "Barcelona", 
+                    "codi postal": "08018",
+                    "país": "Espanya"
+                },
+                "telèfon": "938872258",
+                "fax": null,
+                "Nif": "B28465193"
+            },
+            "preu": 68,
+            "vendes": {
+                "client_id": { "$oid":"67ced6544001f27a32ef86ea"},
+                "empleat_id": { "$oid":"67fff6544001f27a32ef86ea"},
+                "data_hora": "2025-03-08T10:30:00Z"
+             }
+        },
+        {
+            "marca": "Oakley",
+            "graduacio": {
+                "esquerra": 1.5,
+                "dreta": 3
+            },
+            "muntura": "pasta",
+            "color-muntura": {
+                "vidre-esquerre": "transparent",
+                "vidre-dret": "transparent"
+            },
+            "proveidors": {
+                "nom" : "Ópticas Tutusaus",
+                "adreça": {
+                    "carrer": "Rogent", 
+                    "número": "80",
+                    "pis": "B", 
+                    "porta": null, 
+                    "ciutat": "Barcelona", 
+                    "codi postal": "08026",
+                    "país": "Espanya"
+                }
+            },
+            "preu": 199.99,
+            "vendes": {
+                "client_id": { "$oid":"67ced6544001f27a32ef86eb"},
+                "empleat_id": { "$oid":"67rtr6544001f27a32ef86ea"},
+                "data_hora": "2025-03-09T13:30:00Z"
+             }
+        }
+    ],
+    "clients": [
+        {
+            "nom": "Guillem",
+            "adreça": "Xifre 69",
+            "telèfon": "653032598",
+            "correu electrònic": "guillemgaona@hotmail.com",
+            "data-registre": "2025-03-05",
+            "recomenat per": null
+        },
+        {
+            "nom": "Andrea",
+            "adreça": "Xifre 69",
+            "telèfon": "653032578",
+            "correu electrònic": "andrea@hotmail.com",
+            "data-registre": "2025-03-06",
+            "recomanat_per": { "$oid":"67ced6544001f27a32ef86ea"}
+        },
+        {
+            "nom": "Arnau",
+            "adreça": "Joan de Peguera 29",
+            "telèfon": "653832578",
+            "correu electrònic": "arnau@hotmail.com",
+            "data-registre": "2025-03-07",
+            "recomanat_per": { "$oid":"67ced6544001f27a32ef86ea"}
+        }
+    ],
+    "empleats":[
+        {
+            "nom": "Ruben",
+            "direccion": "Carrer Rogent, 71, Barcelona",
+            "telefono": "657072324"
+        },
+
+        {
+            "nombre": "Benito ",
+            "direccion": "Joan de Peguera, 18, Barcelona",
+            "telefono": "654967890"
+        }
+ 
+    ]
+    
+}
